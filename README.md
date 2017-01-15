@@ -10,7 +10,7 @@ https://www.youtube.com/watch?v=YMfW1bfyGSY
 3. Learning Functional Programming with JavaScript - Anjana Vakil<br>
 https://www.youtube.com/watch?v=e-5obm1G_FY
 
-4. Choosing a JavaScript Framework - Rob Eisenberg
+4. Choosing a JavaScript Framework - Rob Eisenberg<br>
 https://www.youtube.com/watch?v=6I_GwgoGm1w
 
 
