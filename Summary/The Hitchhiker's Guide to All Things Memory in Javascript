@@ -1,0 +1,14 @@
+I watched the tech talk from JSConf,  The Hitchhiker's Guide to All Things Memory in Javascript.  The talk was about memory management in Javascript. Unlike C and other low-level programming languages, the programmer doesn't  have to worry about memory allocation and de-allocation in Javascript. The garbage collector takes care of it, but it is still good to know how it all works.
+
+     The speaker was talking about memory management in V8, the javascript engine used by Chrome. In Javascript, all variables or functions are stored in the heap. V8 allocates objects in memory into six chunks or objects.
+- New Space - Memory is created in this space when the object is newly allocated
+- Old Pointer Space - An object from new space is graduated to Old Pointer Space if it is an object reference and it is used consistently
+- Old Data Space - An object from new space is graduated to Old Data Space if it is a scalar and it is used consistently
+- Large Object Space - Huge object tables are stored in this space
+- Code Space - Executable memory is stored in this space
+- Map Space - Maps and property objects needed by V8 are stored in this space
+ 
+Garbage Collection in new space and data space
+Collecting memory in new space is called Scavenging. The garbage collector traverses the new space graph, creates copies of all objects it can reach and deletes all the old values. The data it couldn't traverse to is considered garbage and is deleted. For collecting memory in data space, mark and sweep method is used. In the first sweep, objects that are in use are marked and in the second sweep the unmarked ones are deleted.
+    
+For debugging memory management issues in Javascript, Timeline in Chrome Dev Tools can be used. Timeline also shows when the garbage collector ran. HeapDump is another Javascript library that can be used for debugging. It allows us to take a snapshot of the heap.
