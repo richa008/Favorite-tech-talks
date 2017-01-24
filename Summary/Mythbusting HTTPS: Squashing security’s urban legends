@@ -1,0 +1,30 @@
+I watched a tech talk from Google IO 2016,  Mythbusting HTTPS: Squashing security’s urban legends.  The talk was about the importance of HTTPS and things about HTTPS that were true 6 years ago but they no longer true in 2016. The web has changed since 2010, now we have new features like geolocation and push notifications. But not all websites are secure, our personal information, credit card details can be stolen if security is not strong enough. There may be obnoxious ads on a webpage that download malware when clicked on. If you’re on HTTP, the entire URL and page content is visible to anyone on the network between you and that site, every page you went to on that site, any search terms, what articles you’re reading. If you’re on HTTPS, only the domain of the website is visible and not the page you’re looking at. Anyone on the network can still tell what website you went to, but it’s very difficult to determine what you did on that site. Despite of this there are many websites that have not moved to HTTPS yet.
+
+The speaker insisted HTTPS is the minimum amount of security every website should have.
+The three basics of HTTPS are
+1. Identity - The browser receives a certificate from the server and the browser uses this certificate to prove that it is talking to a real domain
+2. Confidentiality - Makes sure that only no one else can read the data
+3. Integrity - Makes sure no one can modify the data sent between the browser and the server 
+
+She also talked about some of the common myths that people have related to HTTPS
+
+1. The website is not important enough for HTTPS
+Some people feel that they don't need HTTPS because their website does not deal with financial data or login information. But without HTTPS, advertisements can be inserted in the site that make the website slower or they contain malware. Also there are many features like geolocation cannot be used since they only work on websites with HTTPS.
+
+2. HTTPS causes performance degradation
+Websites may become slower after moving from HTTP to HTTPS, but there are ways to overcome this problem.
+- If someone tries to hit the HTTP version of the site, there has to be a redirect to the HTTPS version which may cause performance degradation. One way to overcome this is using the HTTP strict Transport Security header. It is a HTTP header that removes the redirect, it automatically rewrites HTTP to HTTPS until the header expires.
+- HTTPS uses the TLS protocol, which does 2 round trips between the client and server. This may cause the website to be slow. There are some TLS configuration optimizations that can be made to solve this problem. Setting TLS False Start removes 1 round trip between the client and server. The client doesn't wait for the server to respond after the first handshake. Setting TLS Session Resumption stops the client from making the request again if the session is still valid. The client reuses the session identifier and so there is no need for the handshake to be made again
+- Moving to HTTP 2 also fixes some of the performance problems. HTTP 2 is faster than HTTP 1 because in HTTP 2, multiple requests and responses can be multiplexed over the same network. The requests and responses don't have to be in order.
+
+3. HTTPS website can be attacked too 
+This is not a myth, this is a fact. There are types of attacks that can be made on HTTPS websites too, but this should not be used as a reason to keep using HTTP. The speaker gave an interesting analogy, being on HTTPS is like using a life jacket with defects in it but being on HTTP is like not using a life jacket at all. Keeping configurations up to date makes the website less susceptible to attacks. Tools like SSL Labs and Mozilla SSL configuration generator can be used to make sure the server configurations are up to date.
+
+4. HTTPS costs a lot of money
+To move to HTTPS, certificates have to be bought from the Certificate Authority. Although these certificates are not very expensive, they can be as low as $15/year. Another thing people are worried about is search rankings. Having 2 versions of a website lower search rankings but again there are ways to overcome this problem. Google has guidelines for improving search rankings, like using 301 redirects or the canonical attribute. 
+
+5. Serving 3rd party content is a problem
+Website owners are worried that advertisements or content from 3rd parties will not display after moving to HTTPS.
+Advertisements - Google AdSense serves all of its requests over HTTPS. In fact, 80% of member and ad delivery systems support HTTPS.
+- Mixed content - If a HTTPS website loads some content like images, scripts, iframes that are delivered over HTTP, the browser blocks the content.  One way of solving this problem is that the setting the Content Security Policy Report Only header. This sends a report to the website owner and lets him know which content is being served over HTTP and the owner can go and fix the content.
+- Referrers - If a user clicks on a link on website B and goes to website C, the referrer header tells C where the user came from and B gets attributed. One common problem after moving to HTTPS is that the referrer header gets stripped and since C doesn't know where the user came from, website B may lose money.  One way to avoid this is setting the referrer origin policy to origin-when-cross-origin. This stops the referrer header from being stripped.
