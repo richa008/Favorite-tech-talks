@@ -1,0 +1,16 @@
+How To Design A Good API and Why it Matters
+ 
+Some of the key take aways from the talk were
+
+- Before implementing an API, start by writing a short spec. The spec can then be reviewed by other people. This will help in reducing design changes later on.
+- Use good names. The code should read like prose. Sticking to naming conventions and using appropriate names is very important while writing code.
+- When in doubt, leave it out. You can always add later on, but can never remove.
+- Don't let implementation details leak into the API. For example, writing code for someone using a SQL database, and throwing SQL exceptions. If the code is used on some other platform, it would still throw SQL exceptions.
+- Make classes and members as private as possible. Ideally public classes should not have any public fields.
+- Documentation is very important. Document every class, interface, method, constructor, parameter, exception.
+- Consider performance consequences while designing an API
+- Minimize mutability unless there is a good reason to not do so. Classes should be immutable as much as possible. It makes them thread safe and reusable.
+- Subclass only when it makes sense. A bad example of subclassing is, Stack class in java extends Vector, even though you can only perform the operations push and pop on a Stack. But Vectors allow random access.
+- Don't make the client do anything the module should do. For example, the client shouldn't have to make a call, get the data and pass it to a another method. Just give the client one API that takes care of that.
+- Fail fast. Check for errors in the beginning of the method.
+- Use appropriate parameter types and return types. For example, don't use a String where a Boolean can be used. Don't use floats and doubles for monetary calculations, use BigDecimal instead. Don't return null where an empty collection can be returned.
