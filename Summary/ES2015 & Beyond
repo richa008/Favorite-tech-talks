@@ -1,0 +1,28 @@
+ I watched the tech talk ES2015 & Beyond by Jay Phelps. Jay talked about the main features in ES2015. The features he talked about are
+ 
+1. Block scope
+The var keyword in Javascript has functional scope, that is the variable defined by var can be accessed even outside the block it is defined in. ES2015 introduced two new keywords let and const. These keywords can be used to define variables, and the variables have block scope.
+ 
+2. Deconstructing
+Deconstructing gives us a way of getting values from arrays or objects by writing fewer lines of code.
+var arr = [1, 2, 3];
+var [a, , b] = arr; // a = 1, b = 3
+ 
+var obj = {first: 1, second: 2, third: 3}
+var {first, third} = obj; // first = 1, third = 3
+ 
+This method can also be used for swapping variables
+var a = 1, b = 2;
+[a, b] = [b, a]; // a = 2, b = 1
+ 
+3. Arrow function
+They have a shorter syntax than function expressions and they do not bind their own this, arguments or super. They are bound to the parent scope. This means, parents 'this' can be accessed in an arrow function.
+[1, 2, 3].map(function(d) {return Math.pow(d, 2) } ) can be written as [1, 2, 3].map( d => Math.pow(d, 2));
+ 
+4. Classes
+In ES2015, we can define classes with the class keyword. The classes can be extended with the extends keyword. Built-ins like Array can be extended as well. This is all just syntactical sugar though, under the hood javascript still uses prototype based inheritance. A few things to keep in mind are,
+- Classes do not get hoisted
+- Classes can also be written as an expression
+- The new keyword has to be used while creating an object of a class
+ 
+These ES6 features are not supported by all browsers yet. Safari and Internet Explorer do not support a lot of these features. For such browsers, a transpiler like Babel or TypeScript can be used. These transpilers, compile the code to Javascript that the browser can understand.
