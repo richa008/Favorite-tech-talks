@@ -22,5 +22,6 @@ https://www.youtube.com/watch?v=8aGhZQkoFbQ
 - Mythbusting HTTPS: Squashing security’s urban legends<br>
 https://www.youtube.com/watch?v=YMfW1bfyGSY
 
-
+- Agile is Dead • Pragmatic Dave Thomas
+https://www.youtube.com/watch?v=a-BOSpxYJ9M
 
