@@ -10,13 +10,12 @@ https://www.youtube.com/watch?v=YMfW1bfyGSY
 3. Learning Functional Programming with JavaScript - Anjana Vakil<br>
 https://www.youtube.com/watch?v=e-5obm1G_FY
 
-4. Choosing a JavaScript Framework - Rob Eisenberg<br>
-https://www.youtube.com/watch?v=6I_GwgoGm1w
-
 5. What the heck is the event loop anyway? - Philip Roberts<br>
 https://www.youtube.com/watch?v=8aGhZQkoFbQ
 
-6. How To Design A Good API and Why it Matters<br>
-https://www.youtube.com/watch?v=aAb7hSCtvGw&t=518s
+6. JavaScript Engines - How Do They Even?<br>
+https://www.youtube.com/watch?v=p-iiEDtpy6I&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi
 
+7. The Hitchhiker's Guide to All Things Memory in JavaScript<br>
+https://www.youtube.com/watch?v=AeUCN2lPqL8&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi
 
