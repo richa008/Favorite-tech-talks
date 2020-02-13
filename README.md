@@ -7,6 +7,9 @@ Links to my favorite tech talks
 - [The Hitchhiker's Guide to All Things Memory in JavaScript](https://www.youtube.com/watch?v=AeUCN2lPqL8&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi)<br>
 - [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - Philip Roberts<br>
 
+### Backend
+- [Facebook and memcached](https://www.youtube.com/watch?v=UH7wkvcf0ys) - Mark Zuckerberg, 2008
+
 ### Other
 
 - [Mythbusting HTTPS: Squashing security’s urban legends](https://www.youtube.com/watch?v=YMfW1bfyGSY)<br>
