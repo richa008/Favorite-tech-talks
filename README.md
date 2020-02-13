@@ -1,5 +1,5 @@
 # Favorite Tech Talks
-Links to good software engineering tech talks
+Links to my favorite tech talks
 
 ### Front end
 - [Chrome Developer Tools Deep Dive - Shay Friedman](https://www.youtube.com/watch?v=dQeSRZbD1mw)<br>
