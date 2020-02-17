@@ -12,6 +12,6 @@ Links to my favorite tech talks
 - [Facebook and memcached](https://www.youtube.com/watch?v=UH7wkvcf0ys) - Mark Zuckerberg, 2008
 - [Scaling Instagram Infrastructure](https://www.youtube.com/watch?v=hnpzNAPiC0E&t=506s) - Lisa Guo, 2017
 
-### Motivational
+### Misc
 
 - [Steve Jobs' 2005 Stanford Commencement Address](https://www.youtube.com/watch?v=UF8uR6Z6KLc) - Steve Jobs
