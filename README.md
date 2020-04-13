@@ -7,6 +7,7 @@ Links to my favorite tech talks
 - [The Hitchhiker's Guide to All Things Memory in JavaScript](https://www.youtube.com/watch?v=AeUCN2lPqL8&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi) - Safia Abdalla, 2016<br>
 - [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - Philip Roberts, 2014<br>
 - [Benchmarking JavaScript](https://www.youtube.com/watch?v=g0ek4vV7nEA&t=1624s) - Vyacheslav Egorov, 2015<br>
+- [A cartoon Intro to WebAssembly](https://www.youtube.com/watch?v=HktWin_LPf4&t=2s) - Lin Clark, 2017<br>
 
 ### Software development and architecture
 - [Scaling Instagram Infrastructure](https://www.youtube.com/watch?v=hnpzNAPiC0E&t=506s) - Lisa Guo, 2017
