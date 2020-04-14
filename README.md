@@ -13,7 +13,7 @@ Links to my favorite tech talks
 - [Scaling Instagram Infrastructure](https://www.youtube.com/watch?v=hnpzNAPiC0E&t=506s) - Lisa Guo, 2017
 - [Distributed Systems in One Lesson](https://www.youtube.com/watch?v=Y6Ev8GIlbxc) - Tim Berglund, 2017
 - [OAuth 2.0 and OpenID Connect (in plain English)](https://www.youtube.com/watch?v=996OiexHze0) - Nate Barbettini, 2018
-- [Computer Science - A Guide for the Perplexed] (https://www.youtube.com/watch?v=rmueBVrLKcY) - Joe Armstrong, 2018
+- [Computer Science - A Guide for the Perplexed](https://www.youtube.com/watch?v=rmueBVrLKcY) - Joe Armstrong, 2018
 
 ### Misc
 
