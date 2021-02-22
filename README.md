@@ -19,4 +19,4 @@ Links to my favorite tech talks
 ### Misc
 
 - [Steve Jobs' 2005 Stanford Commencement Address](https://www.youtube.com/watch?v=UF8uR6Z6KLc) - Steve Jobs<br>
-- [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs&ab_channel=kubucation<br>
+- [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs&ab_channel=kubucation)<br>
