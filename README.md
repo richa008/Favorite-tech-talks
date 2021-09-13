@@ -1,7 +1,7 @@
 # Favorite Tech Talks
 Links to my favorite tech talks
 
-### Web development
+### Front end
 - [Learning Functional Programming with JavaScript](https://www.youtube.com/watch?v=e-5obm1G_FY) - Anjana Vakil, 2016 <br>
 - [JavaScript Engines - How Do They Even?](https://www.youtube.com/watch?v=p-iiEDtpy6I&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi) - Franziska Hinkelmann, 2017<br>
 - [The Hitchhiker's Guide to All Things Memory in JavaScript](https://www.youtube.com/watch?v=AeUCN2lPqL8&list=PLUS3uVC08ZapyqfU21joP-B1vTItKf5qi) - Safia Abdalla, 2016<br>
