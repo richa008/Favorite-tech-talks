@@ -8,6 +8,7 @@ Links to my favorite tech talks
 - [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - Philip Roberts, 2014<br>
 - [Benchmarking JavaScript](https://www.youtube.com/watch?v=g0ek4vV7nEA&t=1624s) - Vyacheslav Egorov, 2015<br>
 - [A cartoon Intro to WebAssembly](https://www.youtube.com/watch?v=HktWin_LPf4&t=2s) - Lin Clark, 2017<br>
+- [React Today and Tomorrow and 90% Cleaner React With Hooks](https://www.youtube.com/watch?v=dpw9EHDh2bM&t=4198s) - Sophie Alpert, Dan Abramov, and Ryan Florence, 2018
 
 ### Software design and architecture
 - [Scaling Instagram Infrastructure](https://www.youtube.com/watch?v=hnpzNAPiC0E&t=506s) - Lisa Guo, 2017
