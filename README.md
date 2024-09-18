@@ -22,4 +22,4 @@ Links to my favorite tech talks
 
 - [Steve Jobs' 2005 Stanford Commencement Address](https://www.youtube.com/watch?v=UF8uR6Z6KLc) - Steve Jobs<br>
 - [How does HTTPS work? What's a CA? What's a self-signed Certificate?](https://www.youtube.com/watch?v=T4Df5_cojAs&ab_channel=kubucation)<br>
-- [[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g&t=36s&ab_channel=AndrejKarpathy) - Andrej Karpathy
+- [[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g&t=36s&ab_channel=AndrejKarpathy) - Andrej Karpathy, 2024
