@@ -20,7 +20,7 @@ Links to my favorite tech talks
 
 ### AI
 - [[1hr Talk] Intro to Large Language Models](https://www.youtube.com/watch?v=zjkBMFhNj_g&t=36s&ab_channel=AndrejKarpathy) - Andrej Karpathy, 2024
-- How I Code With AI Agents (Spec-Driven Development)(https://www.youtube.com/watch?v=RhaF4LVAVng) - Owain Lewis, 2026
+- [How I Code With AI Agents (Spec-Driven Development)](https://www.youtube.com/watch?v=RhaF4LVAVng) - Owain Lewis, 2026
 
 ### Misc
 - [Steve Jobs' 2005 Stanford Commencement Address](https://www.youtube.com/watch?v=UF8uR6Z6KLc) - Steve Jobs<br>
